@@ -1,3 +1,3 @@
 # hello_Rust
 
-这是Sing的学习Rust的远程仓库
+《Rust权威指南》学习笔记和代码提交处
