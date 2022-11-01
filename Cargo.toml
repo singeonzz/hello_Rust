@@ -1,8 +1,13 @@
 [package]
-name = "hello"
+name = "guessing_game"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+### package是一个区域标签，它表明接下来的语句会被用于配置当前的程序包
+### dependencies同样也是一个区域标签， 它表明随后的区域会被用来申明项目的依赖
+
+rand = "0.3.14"
